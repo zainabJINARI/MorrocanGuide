@@ -1,0 +1,246 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    text-align: center;
+    background-image: url("./images/back.jpg");
+    background-repeat: no-repeat repeat ;
+}
+main{
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: first baseline;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+header{
+    margin-top: 0%;
+    background-image: url("./images/MorrocoCHefchaouan.jpg");
+    background-size: cover;
+    height: 390px;
+    /* color: #003566;
+    text-shadow: 0px 0px 8px #fcfcfc; */
+    color: whitesmoke;
+    text-shadow:0px 0px 10px #03045e;
+    box-shadow: 0px 0px 13px #03045e;
+}
+.Various-places{
+    padding-top: 3%;
+    padding-bottom: 7%;
+    background-image: linear-gradient(#64b5f6,#90caf9,#ade8f4,#caf0f8);
+    color: #03045e;
+    margin-top: 0.5%;
+    margin-bottom: 10%;
+    text-shadow:0px 0px 10px #f9f9f9;
+    box-shadow: 0px 0px 13px #03045e;
+}
+.place:hover{
+    padding: 10px 10px;
+    box-shadow:0px 0px 10px #03045e;
+    border-radius: 4px;
+    border:solid  1px  #03045e;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+p,.place a{
+    font-size:small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.place a{
+    margin: 50px 0px;
+    font-weight: bold;
+    color: #03045e;
+
+}
+
+.video{
+    width: 270px;
+    height: 200px;
+    border-radius: 5px;
+}
+h1{
+    font-size: x-large;
+    color: #03045e;
+    border-bottom:solid 1px #03045e;
+    box-shadow: 0px 2px 0px #03045e;
+    text-shadow:0px 0px 10px #03045e;
+    padding: 0%;
+
+   
+}
+.foods{
+    margin-bottom: 100px;
+    /* padding: 100px auto 100px auto; */
+    margin-top: -87px;
+    background-image: linear-gradient(#caf0f8,#c7e5eb,#d9fff5,#f1fffa,#ccfccb,#96e6b3);
+    box-shadow:0px 0px 10px #003e1f;
+    color: #003e1f;
+    border-top: none;
+    text-shadow: 0px 0px 13px #96e6b3;
+    padding-top: 3%;
+    padding-bottom: 7%;
+
+}
+.plats{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h2{
+    background-color: transparent;
+}
+.features{
+    color: whitesmoke;
+    text-shadow:0px 0px 10px #03045e;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.feed{
+    padding: 4px 10px;
+    box-shadow:0px 0px 10px #03045e;
+    border-radius: 4px;
+    border:solid  1px  #03045e;
+    background-color: transparent;
+
+
+}
+.feed:hover{
+    cursor: pointer;
+    width: 210px;
+    height: 220px;
+    /* background-color:#caf0f8; */
+
+}
+.imag{
+    width: 140px;
+    height:140px ;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #03045e;
+    border:solid  1px  #03045e;
+}
+.imag1{
+    width: 140px;
+    height:140px ;
+    border-radius: 50%; 
+    box-shadow: 0px 0px 10px #64b5f6;
+    border:solid  1px  #73ba9b;
+}
+.imag2{
+    width: 140px;
+    height:140px ;
+    border-radius: 5px; 
+    box-shadow: 0px 0px 5px #fff;
+}
+.buildings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.videoArchitecture{
+    width: 600px;
+    height:400px ;
+    border-radius: 4px;
+    box-shadow:0px 0px 10px #03045e;
+
+  
+}
+.food p{
+    box-shadow: 0px 0px 10px #64b5f6;
+    border:solid  1px  #73ba9b;
+    font-style: italic;
+    font-weight: 300;
+    font-size:xx-small;
+    padding: 10px 20px;
+}
+.food a{
+    color: #003e1f;
+}
+.food a,.place a,.videoParagraph a{
+     animation-name: fontCHange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes fontCHange{
+    0% { font-size: x-small;}
+    25%{ font-size: small;}
+    75%{ font-size: medium; }
+    100%{ font-size: medium; font-weight: bolder;}
+    
+}
+.Architecture{
+    box-shadow:0px 0px 10px #03045e;
+    color: #003e1f;
+    text-shadow: 0px 0px 10px #90caf9;
+    background-image: linear-gradient(#96e6b3,#96e6b3,#ccfccb,#f1fffa,#d9fff5,#c7e5eb,#caf0f8,#ade8f4,#90caf9,#64b5f6);
+    margin-top: -94px;
+    margin-bottom: 100px;
+
+}
+.paragraph,.building p,.videoParagraph{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: italic;
+   font-size:x-small;
+   padding-left: 20px;
+
+}
+.building{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: #003e1f solid 1px;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 10px #03045e;
+
+}
+.videoParagraph{
+    color: #03045e;
+    font-size: medium;
+
+}
+.videoParagraph a{
+    text-decoration: none;
+    color: #03045e;
+}
+footer{
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    box-shadow: 2px 2px 10px #03045e;
+    padding: 5px 10px;
+    background-color: #96e6b3;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-87px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.me{
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #03045e;
+    width: 100px;
+}
+.final{
+    font-size: medium;
+}
+footer h3{
+    margin-top: 80px;
+    margin-left: 12px;
+}
+.guideInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer h4{ 
+    margin: 0%;
+}
